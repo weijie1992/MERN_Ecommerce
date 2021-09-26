@@ -4,7 +4,9 @@ React folder contains Client side React code
 
 Node folder contains Server side Nodejs code
 
-To run the full-stack project locally will require below
+View demo on https://
+
+To run this project locally will require below
 1) Clone project
 2) Create a mongodb - https://cloud.mongodb.com/
 3) AWS account for storing of images
@@ -83,3 +85,12 @@ STRIPE_SECRET_KEY=
 11) AWS S3
 12) Google-Auth-Library
 13) Facebook Graph API
+
+<b>Upcoming features : </b>
+1) Checkout/Cart : Promo code and discounted price
+2) Admin page : integrate refund with Stripe
+3) User login : Locked user account on multiple fail login
+4) Storing Refresh token in http only cookie
+5) Postal code APIs when customer key postal code
+6) Mobile friendly UI
+7) Allow customer to rate product
