@@ -7,12 +7,12 @@ Node folder contains Server side Nodejs code
 View demo on https://
 
 To run this project locally will require below
-1) Clone project
+1) Clone project - npm install on both React and Node Folder
 2) Create a mongodb - https://cloud.mongodb.com/
 3) AWS account for storing of images
 4) Stripe account for making test payment
 5) Sendgrid account - optional email will not be trigger for registration and payment
-6) Fill in all environment variable below
+6) Create .env file in React and Node root directory with all environment variable below
 
 <b>Environment Variable for React and Node </b>
 <br/>
