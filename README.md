@@ -4,6 +4,13 @@ React folder contains Client side React code
 
 Node folder contains Server side Nodejs code
 
+To run the full-stack project locally will require below
+1) Clone project
+2) Create a mongodb - https://cloud.mongodb.com/
+3) AWS account for storing of images
+4) Stripe account for making test payment
+5) Sendgrid account - optional email will not be trigger for registration and payment
+6) Fill in all environment variable below
 
 <b>Environment Variable for React and Node </b>
 <br/>
@@ -63,7 +70,6 @@ STRIPE_SECRET_KEY=
 
 <b>Other integrated libraries for React and Node</b>
 <br/>
-React library
 1) React-Redux
 2) Boostrap 4
 3) Ant Design
@@ -71,9 +77,6 @@ React library
 5) react-stripe-js
 6) react-google-login
 7) react-facebook-login
-<br/>
-Node library
-<br/>
 8) jsonwebtoken
 9) Stripe
 10) Sendgrid
