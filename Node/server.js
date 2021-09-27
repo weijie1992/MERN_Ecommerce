@@ -20,6 +20,10 @@ if(process.env.NODE_ENV==="DEV") {
         origin:process.env.CLIENT_URL
     }));
     app.use(morgan("dev"));
+} else {
+    app.use(cors({
+        origin:process.env.CLIENT_URL
+    }));
 }
 
 //App.Router
