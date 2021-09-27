@@ -237,11 +237,11 @@ const Login = ({ history }) => {
                 </div>
                 <div className="row mb-3">
                   <div className="col">
-                    {/* <GoogleLogin
+                    <GoogleLogin
                       clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
                       buttonText="Login With Google"
                       onSuccess={responseGoogle}
-                      onFailure={responseGoogle}
+                      // onFailure={responseGoogle}
                       cookiePolicy={"single_host_origin"}
                       render={(renderProps) => (
                         <MDBBtn
@@ -255,7 +255,7 @@ const Login = ({ history }) => {
                           Login With Google
                         </MDBBtn>
                       )}
-                    /> */}
+                    />
                   </div>
 
                   <div className="col">
