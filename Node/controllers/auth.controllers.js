@@ -67,9 +67,9 @@ exports.registerController = (req, res) => {
                 const emailData = {
                     from: process.env.EMAIL_FROM,
                     to: email,
-                    Subject: "MumsCooky Account Activation",
+                    Subject: "Fruittier Account Activation",
                     html: `
-                        <h1>Click the URL below to activate your MumsCooky Account</h1>
+                        <h1>Click the URL below to activate your Fruittier Account</h1>
                         <p>This activate URL only last for 15mins</p>
                         <p>${process.env.CLIENT_URL}/user/activate/${token}</p>
                     `
@@ -334,9 +334,9 @@ exports.passwordForgetController = (req, res) => {
                 const emailData = {
                     from: process.env.EMAIL_FROM,
                     to: email,
-                    Subject: "MumsCooky Password Reset",
+                    Subject: "Fruittier Password Reset",
                     html: `
-                        <h1>Click the URL below to reset your MumsCooky Account</h1>
+                        <h1>Click the URL below to reset your Fruittier Account</h1>
                         <p>This reset password URL only last for 15mins</p>
                         <p>${process.env.CLIENT_URL}/user/password/reset/${token}</p>
                     `
